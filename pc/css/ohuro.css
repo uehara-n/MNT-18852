@@ -27,11 +27,11 @@
 	padding:5vw 1.2vw 2vw 0;
 }
 
-.bnr_contact01_new a img { 
+.bnr_contact01_new a img {
 	width:34%;
 	height:auto;
 }
-@media screen and (min-width:600px) { 
+@media screen and (min-width:600px) {
 /*　画面サイズが600pxからはここを読み込む　*/
 .pb20 {padding: 0 0 20px;}
 .pb40 {padding: 0 0 40px;}
@@ -81,7 +81,7 @@
 	padding:3.4vw 1.2vw 1.2vw 0;
 }
 
-.bnr_contact01_new a img { 
+.bnr_contact01_new a img {
 	width:230px;
 	height:auto;
 }
@@ -101,4 +101,89 @@
 	transition: all 0.3s ease;
 }
 
+}
+
+.tac{text-align: center;}
+
+#menu_ohuro .in_box{
+	font-size: 16px;
+}
+
+#menu_ohuro .in_box p{
+	line-height: 1.6;
+	letter-spacing: 1px;
+}
+
+.box_flex,.box_usual{
+	width: 89%;
+  margin: 0 auto;
+	font-family: "游ゴシック", "Yu Gothic","ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+}
+
+.box_flex .inner{
+	display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.box_flex .no_space,
+.box_usual .no_space{
+	padding: 0 0 35px;
+}
+
+.box_flex .inner .in_box{
+	width:48.5%;
+	padding: 0 0px 60px 0;
+}
+
+.box_flex .inner .in_box img{
+	margin: 0 0 6px;
+}
+
+.box_flex h3,
+.box_usual h3 span{
+	display: inline-block;
+	color:#0068b7;
+	font-size:24px;
+	font-weight: bold;
+	padding: 0 0 4px;
+	margin: 0 0 33px;
+	border-bottom: 3px solid #0068b7;
+}
+
+.box_usual h3{
+	display: block;
+}
+
+.box_flex h4{
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 1.5;
+  padding: 0 0 10px;
+}
+
+.box_usual .in_box {
+	padding: 0 0px 60px 0;
+}
+
+.box_usual .in_box p{
+	display: inline-block;
+	width:48.5%;
+	vertical-align: top;
+}
+
+.box_usual .in_box .leftb{
+	padding-right: 19px;
+}
+
+@media (max-width:897px){
+	.box_usual .in_box{
+		text-align: center;
+	}
+	.box_usual .in_box p.txt{
+		width:100%;
+		text-align: left;
+	}
 }
