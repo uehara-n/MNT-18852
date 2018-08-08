@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+.pb20 {padding: 0 0 10px;}
+.pb40 {padding: 0 0 20px;}
+.pb60 {padding: 0 0 30px;}
+
+#menu_ohuro { width:96%; max-width:980px; margin:0 auto;}
+.no_space { margin:0 auto -3px; display:block; }
+.caution_box { word-break: break-all; font-size:calc(10px + 0.2vw); line-height:calc(18px + 0.2vw);}
+
+#menu_ohuro div.box_lr { overflow: hidden; padding:0 0 2vw 0; }
+#menu_ohuro div.box_lr .inner { overflow: hidden; display:block; width:96%; vertical-align:top; margin:0 2% 2vw 2%; border-radius: 13px; border:3px solid #F30; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box;}
+#menu_ohuro div.box_lr img { display:block; margin:0 auto; }
+#menu_ohuro div.box_lr img:nth-child(2) { margin: 1vw auto; }
+#menu_ohuro div.box_lr p { width: 80%; margin:0 auto; word-break: break-all; font-size:calc(12px + 0.2vw); line-height:calc(20px + 0.2vw);}
+
+.bnr_contact01_new {
+	width:100%;
+	max-width:710px;
+	height:auto;
+	background-image:url(../page_image/menu/ohuro/bnr_contact_o.png);
+	background-repeat: no-repeat;
+	background-size:100% auto;
+	margin:0 auto 2vw auto;
+	text-align:right;
+	padding:5vw 1.2vw 2vw 0;
+}
+
+.bnr_contact01_new a img { 
+	width:34%;
+	height:auto;
+}
+@media screen and (min-width:600px) { 
+/*　画面サイズが600pxからはここを読み込む　*/
+.pb20 {padding: 0 0 20px;}
+.pb40 {padding: 0 0 40px;}
+.pb60 {padding: 0 0 60px;}
+
+#menu_ohuro { width:100%; max-width:980px; margin:0 auto;}
+#menu_ohuro div.box_lr {
+	display:-webkit-box;
+    display:-moz-box;
+    display:-ms-box;
+    display:-webkit-flexbox;
+    display:-moz-flexbox;
+    display:-ms-flexbox;
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:-ms-flex;
+    display:flex;
+    -webkit-box-lines:multiple;
+    -moz-box-lines:multiple;
+    -webkit-flex-wrap:wrap;
+    -moz-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+}
+#menu_ohuro div.box_lr .inner {
+	float: left;
+	display:block;
+	width:485px;
+	vertical-align:top;
+	margin:0 10px 2vw 0;
+}
+#menu_ohuro div.box_lr .inner:nth-child(2n+2) { margin:0 0 2vw; }
+#menu_ohuro div.box_lr img { margin:0 auto; }
+#menu_ohuro div.box_lr img:nth-child(2) { width: 408px; }
+#menu_ohuro div.box_lr p { width: 400px; margin:0 auto; padding: 0 0 1vw; }
+
+
+.bnr_contact01_new {
+	width:100%;
+	max-width:710px;
+	height:120px;
+	background-image:url(../page_image/menu/ohuro/bnr_contact_o.png);
+	background-repeat: no-repeat;
+	background-size:100% auto;
+	margin:0 auto 2vw auto;
+	text-align:right;
+	padding:3.4vw 1.2vw 1.2vw 0;
+}
+
+.bnr_contact01_new a img { 
+	width:230px;
+	height:auto;
+}
+
+.bnr_contact01_new a { background: url(../page_image/menu/con_btn_bg.png) 0 0 no-repeat; display:block; float:right;}
+.bnr_contact01_new a:hover img {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	-ms-filter: "alpha(opacity=70)";
+	transition: all 0.3s ease;
+}
+
+.seko_btn a:hover img {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	-ms-filter: "alpha(opacity=70)";
+	transition: all 0.3s ease;
+}
+
+}
